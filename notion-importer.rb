@@ -8,7 +8,7 @@ class NotionImporter < Formula
   depends_on "python@3.9"
 
   def install
-    bin.install "notion_importer.py" => "notion-importer"
+    bin.install "notion-importer.py" => "notion-importer"
   end
 
   test do
